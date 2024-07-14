@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.glass-container{
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(90deg,
+  rgba(2,0,36,1)0%,
+  rgba(95,9,121,1)50%,
+  rgba(239,0,255,1)100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glas{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background: rgba(255,255,255,0.38);
+  border-radius: 16px;
+  backdrop-filter: blur(4px);
+  border:1px solid rgba(255,255,255,0.3);
+}
+#title{
+  rotate: -45deg;
+  font-size: 50px;
+  color: aliceblue;
+}
